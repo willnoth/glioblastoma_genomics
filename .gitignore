@@ -1,14 +1,29 @@
+# Environment & Secret Files
 .env
-/vendor
-/node_modules
+.env.*
+!.env.example
+
+# IDE & OS Files
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Laravel / PHP
+/vendor/
 /public/storage
+/public/hot
 /storage/*.key
-.idea
-.vscode
-.env
-/vendor
-/node_modules
-/public/storage
-/storage/*.key
-.idea
-.vscode
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker
+docker-compose.override.yml
