@@ -1,0 +1,40 @@
+{
+  "dataset_name": "tcga_gbm_raw",
+  "total_genes": 508,
+  "total_samples": 20,
+  "sample_ids": [
+    "TCGA-06-0001-01A",
+    "TCGA-06-0002-01A",
+    "TCGA-06-0003-01A",
+    "TCGA-06-0004-01A",
+    "TCGA-06-0005-01A",
+    "TCGA-06-0006-01A",
+    "TCGA-06-0007-01A",
+    "TCGA-06-0008-01A",
+    "TCGA-06-0009-01A",
+    "TCGA-06-0010-01A",
+    "TCGA-06-0011-01A",
+    "TCGA-06-0012-01A",
+    "TCGA-06-0013-01A",
+    "TCGA-06-0014-01A",
+    "TCGA-06-0015-01A",
+    "TCGA-06-0016-01A",
+    "TCGA-06-0017-01A",
+    "TCGA-06-0018-01A",
+    "TCGA-06-0019-01A",
+    "TCGA-06-0020-01A"
+  ],
+  "top_expressed_genes": [
+    "GENE_0295",
+    "GENE_0431",
+    "GENE_0095",
+    "GENE_0016",
+    "GENE_0429",
+    "GENE_0428",
+    "GENE_0159",
+    "GENE_0225",
+    "GENE_0317",
+    "GENE_0316"
+  ],
+  "file_path": "processed/tcga_gbm_raw_expression.parquet"
+}

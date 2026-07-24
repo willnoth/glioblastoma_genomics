@@ -33,6 +33,18 @@ services:
     networks:
       - glioblastoma_net
 
+  glioblastoma_pipeline:
+    build:
+      context: ./pipeline
+      dockerfile: Dockerfile
+    container_name: glioblastoma_pipeline
+    volumes:
+      - ./pipeline:/app
+    # Keeps container running if you want to exec into it manually, 
+    # or omit tty/stdin_open if it should run once and exit:
+    tty: true
+    stdin_open: true
+
   db:
     image: postgres:15-alpine
     container_name: glioblastoma_db
